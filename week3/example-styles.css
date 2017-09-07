@@ -11,9 +11,13 @@ p {
 }
 
 * {
-    font-family: "Lobster Two", Arial;
+    font-family: "Chewy", Arial;
 }
 
 article p {
     color: #558B6E;
+}
+
+body {
+    background-color: #FBF2C0;
 }

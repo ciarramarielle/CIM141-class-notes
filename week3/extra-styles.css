@@ -13,8 +13,13 @@ h2 {
 
 #hi {
     color: #726DA8;
+    width: 100%;
+    border-bottom: 3px dotted #C490D1;
 }
 
 .hehe {
     color: #C490D1;
+    font-family: Helvetica, sans-serif;
+    line-height: 2em;
+    vertical-align: sub;
 }

@@ -72,4 +72,42 @@ Attribute Selectors
     .class_name     Many times.
     #element_id     Only used once...
 
+Typography
+
+    font stack...
+    font-family: {
+        cursive, fantasy, inherit...
+        sans-serif -- no flourishes (like Arial)
+        serif -- has some stuffies in the ends like Times New Roman
+    }
+    
+    @font-face rule... 
+    
+    scaling: 
+        percentage
+        widest letter = m/w -- em unit
+        rem (root em) -- percent of default size
+        
+    viewport sizing (vmin.. vh)
+    
+    sizing keywords (small, xxlarge)
+    
+    kerning/tracking
+        letter-spacing: ...
+        word-spacing: ...
+    leading
+        line-height: ... (2em -- double standard space)
+    indent
+        text-indent: ...
+        
+    font-style, font-weight
+    text-decoration
+    text-transform (cap, up, low)
+    
+    text-align:
+    vertical-align
+    
+    
+
+    
     
