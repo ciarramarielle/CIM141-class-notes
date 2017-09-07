@@ -6,11 +6,10 @@
 
 p {
     color: #A14A76;
-    font-size: 28px;
 }
 
 * {
-    font-family: Arial;
+    font-family: "Lobster Two", Arial;
 }
 
 article p {

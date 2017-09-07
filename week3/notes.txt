@@ -44,3 +44,9 @@ Importing Style Sheet
     
     /* so we only have to link 1 css in html file */
     
+Color
+
+    Hex, #000000
+    Name, black
+    RGB, (0,0,0)    --> can add opacity 4th value
+    HSL ...         --> ^ [0, 1.0]
