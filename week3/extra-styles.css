@@ -1,0 +1,18 @@
+@charset="utf-8";
+
+/*
+    I'm a style comment
+*/
+
+p {
+    color: #A14A76;
+    font-size: 28px;
+}
+
+* {
+    font-family: Arial;
+}
+
+article p {
+    color: #558B6E;
+}

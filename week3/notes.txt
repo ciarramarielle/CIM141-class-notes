@@ -1,0 +1,46 @@
+Types of Style Sheets
+
+    INLINE STYLE
+    ---
+    <element style="css_goes_here: ;">
+
+    EMBEDDED STYLE
+    ---
+    <head><style> CSS GOES HERE DIRECTLY </style></head>
+
+    EXTERNAL STYLE
+    ---
+    <link href="path_to_file.css" rel="stylesheet" />
+    
+
+CSS Syntax
+
+    selector : HTML element
+    .class_name
+    #element_id
+    
+    selector {
+        property1: value1;
+        property2: value2;
+        ...
+    }
+    
+    
+Cascading
+
+    The more specific rule takes precedence
+    <p>Hello</p>
+    <div><p>Hi</p></div>
+    
+    p { color: red; }
+    div p { color: blue; } 
+    
+    /* Hi will be colored blue */
+    
+Importing Style Sheet
+
+    /* Inside the css file1.css ... */
+    @import url(file2.css)
+    
+    /* so we only have to link 1 css in html file */
+    
