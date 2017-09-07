@@ -16,9 +16,7 @@ Types of Style Sheets
 CSS Syntax
 
     selector : HTML element
-    .class_name
-    #element_id
-    
+
     selector {
         property1: value1;
         property2: value2;
@@ -49,4 +47,29 @@ Color
     Hex, #000000
     Name, black
     RGB, (0,0,0)    --> can add opacity 4th value
-    HSL ...         --> ^ [0, 1.0]
+    HSL ...         --> ^ [0, 1.0
+    
+Progressive Enhancement
+
+    <browser-specific> first,
+    <newer stuff that might not be supported> last
+    
+    -webkit-... vs. opacity
+    
+Contextual Selector
+
+    i.e. article p { ... }
+    Only change p's style if inside <article>
+    
+    parent descendant { ... }
+    parent > child { ... }
+        /* child has to be DIRECTLY nested */
+    elem1 + elem2   siblings
+    elem1 - elem2   siblings
+    
+Attribute Selectors
+
+    .class_name     Many times.
+    #element_id     Only used once...
+
+    

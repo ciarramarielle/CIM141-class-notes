@@ -4,14 +4,17 @@
     I'm a style comment
 */
 
-p {
-    color: #A14A76;
+
+
+h2 {
+    color: #A0D2DB;
+    text-align: color;
 }
 
-* {
-    font-family: "Lobster Two", Arial;
+#hi {
+    color: #726DA8;
 }
 
-article p {
-    color: #558B6E;
+.hehe {
+    color: #C490D1;
 }
